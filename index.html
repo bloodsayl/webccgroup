@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="java.js"></script>
+    <script src="java2.js"></script>
+    <script src="java3.js"></script>
+    <title>PRUEBA WEB</title>
+</head>
+<body>
+    
+        <div class="logo">
+            <img src="LOGOS/Logo (1).png" alt="Logo" class="logo-normal">
+            <img src="LOGOS/Logo (2).png" alt="Logo alternativo" class="logo-hover">
+            
+        </div>
+        <div class="logomobile">
+            
+            <img src="LOGOS/Isotipo (1).png" alt="LogoMb1" class="logo-mb">
+            <img src="LOGOS/Isotipo (2).png" alt="LogoMb1" class="logo-mb2">
+        </div>
+    
+    
+    <div class="navbar">
+        <div class="categoria">
+            <span>Hogar</span>
+            <div class="submenu">
+                <a href="#">Mundo Hogar</a>
+                <a href="#">Muebles</a>
+                <a href="#">Decoracion</a>
+            </div>
+        </div> 
+        <div class="categoria">
+            <span>Tecnología</span>
+            <div class="submenu">
+                <a href="#">Smartwatch</a>
+                <a href="#">Audifonos</a>
+                <a href="#">Gamer</a>
+            </div>
+        </div> 
+        <div class="categoria">
+            <span>Deporte</span>
+            <div class="submenu">
+                <a href="#">Ropa</a>
+                <a href="#">Accesorios</a>
+                <a href="#">Training</a>
+            </div>
+        </div> 
+        <div class="categoria">
+            <span>Electrodomésticos</span>
+            <div class="submenu">
+                <a href="#">Cocina</a>
+                <a href="#">Pequeños</a>
+                <a href="#">Electrodomesticos</a>
+            </div>
+        </div> 
+        <!--<div id="slideMenu" class="menu-icon">
+            <i class="boton"></i>
+        </div>
+        <div id="sidebarMenu" class="sidebar">
+            <button id="closeSidebar" class="close-icon">&times;</button>
+            <a href="#" class="sidebar-link">Hogar</a>
+            <a href="#" class="sidebar-link">Tecnología</a>
+            <a href="#" class="sidebar-link">Deporte</a>
+            <a href="#" class="sidebar-link">Electrodomésticos</a>
+        </div>-->
+        <div class="containermenu">
+        <div class="menu-btn" onclick="toggleMenu()">|||</div>
+        <div  class="sidebar">
+            <a href="#" class="sidebar-link">Hogar</a>
+            <a href="#" class="sidebar-link">Tecnología</a>
+            <a href="#" class="sidebar-link">Deporte</a>
+            <a href="#" class="sidebar-link">Electrodomésticos</a>
+
+        </div>
+        </div>
+    </div>    
+    
+    <section class="banban">
+        <div class="banners">
+            <div class="banner-slide">
+            <img src="Banners Principales/delivery Diciembre.jpg" alt="Banner 1">
+            </div>
+            <div class="banner-slide">
+            <img src="Banners Principales/DELIVERY.png" alt="Banner 2">
+            </div>
+            <div class="banner-slide">
+            <img src="Banners Principales/Nueva navidad 360 x 391px..jpg" alt="Banner 3">
+            </div>
+            <div class="banner-slide">
+                <img src="Banners Principales/Nuevos ingresos 360 x 391 px.jpg" alt="Banner 4">
+            </div>
+            <div class="banner-slide">
+                <img src="Banners Principales/NUEVOS INGRESOS.png" alt="Banner 5">
+            </div>
+            <div class="banner-slide">
+                <img src="Banners Principales/PRODUCTOS NAVIDEÑOS 2.png" alt="Banner 6">
+            </div>
+            <div class="botones">
+            <button id="prevBtn"> < </button>
+            
+            <button id="nextBtn" > > </button>
+            </div>
+        
+            <script>
+                slidesbutons();
+            </script>
+            
+            <!-- Agrega más banners según sea necesario -->
+        </div>
+    </section>
+
+
+    <section class="productos">
+        <div class="images-container">
+            <div class="producto">
+                <img src="Imágenes/Cuadros 1.png" alt="image1">
+            </div>
+            <div class="producto">
+                <img src="Imágenes/Cuadros 2.png" alt="image2">
+            </div>
+            <div class="producto">
+                <img src="Imágenes/Cuadros 3.png" alt="image3">
+            </div>
+            
+        </div>
+    </section>
+    <section class="productos">
+        <div class="images-container2">
+            <div class="producto2">
+                <img src="Imágenes/Cuadros 1.png" alt="image1">
+            </div>
+            <div class="producto2">
+                <img src="Imágenes/Cuadros 2.png" alt="image2">
+            </div>
+            <div class="producto2">
+                <img src="Imágenes/Cuadros 3.png" alt="image3">
+            </div>
+            <script>setproducts();</script>
+        </div>
+    </section>
+</body>
+</html>
